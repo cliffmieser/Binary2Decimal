@@ -11,3 +11,10 @@ Simple converter that allows user to enter strings of up to 8 binary digits,
 
 #Bonus features
 -User can enter a variable number of binary digits
+
+
+#Packages used
+	-ejs
+	-nodemon
+	-express
+
