@@ -6,8 +6,6 @@ app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, '/views')) //execute file from any location
 
 
-
-
 app.get('/', (req, res) => {
     console.log("Binary to Decimal converter!");
     res.render('home');
