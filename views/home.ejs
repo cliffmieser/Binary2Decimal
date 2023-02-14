@@ -6,21 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bin2Dec</title>
 </head>
-<body>
+<body id="body">
     <h1>Binary to Decimal converter</h1>
     
+    <form action="">
         <label for="digits">Enter 8 binary digits:</label>
-        <input type="text" id="digits" minlength="8"
+        <input class='userInput' type="text" id="digits" minlength="8"
             maxlength="8" name="digits"></input>
         <input id="inputBtn" type="submit" value="convert!"/>
+    </form>
+        
 
-    <script>
-        let binaryNumber = document.getElementById('digits');
-        if(binaryNumber.value != ""){
-            console.log(`The decimal digit is ${parseInt(binaryNumber, 2)}`);
-        } else {
-            console.log("invalid");
-        }
+    <script type="module" src="../modules/script.js" defer>
         
     </script>
     
