@@ -8,15 +8,21 @@
 </head>
 <body>
     <h1>Binary to Decimal converter</h1>
-    <form>
-
-        <label for="digits">Enter 8 binary digits</label>
+    
+        <label for="digits">Enter 8 binary digits:</label>
         <input type="text" id="digits" minlength="8"
             maxlength="8" name="digits"></input>
-        <input type="submit" value="placeholder"/>
-    
+        <input id="inputBtn" type="submit" value="convert!"/>
 
-    </form>
+    <script>
+        let binaryNumber = document.getElementById('digits');
+        if(binaryNumber.value != ""){
+            console.log(`The decimal digit is ${parseInt(binaryNumber, 2)}`);
+        } else {
+            console.log("invalid");
+        }
+        
+    </script>
     
 </body>
 </html>

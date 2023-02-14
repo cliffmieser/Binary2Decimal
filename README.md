@@ -7,7 +7,7 @@ Simple converter that allows user to enter strings of up to 8 binary digits,
 #User Stories/Functions
 -User can enter up to 8 binary digits in one input field
 -User notified if anything other than a 0 or 1 was entered
--User views the results ina  single output field container the decimal (base 10) equvalent of the binary number that was entered
+-User views the results in a single output field container the decimal (base 10) equvalent of the binary number that was entered
 
 #Bonus features
 -User can enter a variable number of binary digits
