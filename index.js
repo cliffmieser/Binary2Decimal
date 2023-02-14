@@ -3,7 +3,9 @@ const app = express();
 const path = require('path');
 
 app.set('view engine', 'ejs');
-app.set('views', path.join(__dirname, '/views')) //execute file from any location
+app.set('views', path.join(__dirname, '/views'));
+app.use('/static', express.static(path.join(__dirname, 'public'))); 
+
 
 app.get('/', (req, res) => {
     console.log("Binary to Decimal converter!");
